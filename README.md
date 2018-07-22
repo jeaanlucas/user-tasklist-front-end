@@ -1,21 +1,20 @@
-# user-tasklist
+## User Tasklist - Front End
+#### How to install and run?
 
-> A Vue.js project
+Easy!
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+Install **NPM**
+```
+sudo apt-get update
+sudo apt-get install nodejs
+sudo apt-get install npm
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Then, in the project execute the commands (*this guys will install all dependencies and run the application locally*):
+```
+npm install
+npm run dev
+```
+The magic is done!
+
+The project will be running locally using port 8080 (*localhost:8080/#/*).
